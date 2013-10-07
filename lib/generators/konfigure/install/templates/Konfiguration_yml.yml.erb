@@ -1,0 +1,18 @@
+defaults: &defaults
+  title: "Gamer Picture Upload"
+  encryption_key : "MySuperLiciousFreakingAwesomeEncryptionStringBroughtToYouBytheLetter3"
+
+<%= ENV['DEVELOPER'] %>:
+  <<: *defaults
+
+development:
+  <<: *defaults
+
+test:
+  <<: *defaults
+
+staging:
+  <<: *defaults
+
+production:
+  <<: *defaults
