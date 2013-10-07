@@ -4,7 +4,7 @@ require File.expand_path("../lib/konfigure/version", __FILE__)
 Gem::Specification.new do |s|
   s.name              = "konfigure"
   s.version           = Konfigure::VERSION
-  s.date              = '10-7-2013'
+  s.date              = '2013-10-07'
   s.authors           = ["jackson oates"]
   s.email             = ["jackson.oates@gmail.com"]
   s.homepage          = "https://github.com/allibubba/konfigure"
